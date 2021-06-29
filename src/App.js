@@ -25,7 +25,7 @@ function App() {
             <div className="brand header-brand">
               <h2 className="m-0">
                 <div className="logo-container">
-                  <Logo logo="/images/logo.png" />
+                  <Logo logo="http://despegaa.github.io/images/logo.png" />
                   <span>Despegaa</span>
                 </div>
               </h2>
@@ -107,7 +107,7 @@ function App() {
           <div className="site-footer-inner">
             <div className="brand footer-brand">
               <a href="/">
-                <Logo logo="/images/logo.png" />
+                <Logo logo="http://despegaa.github.io/images/logo.png" />
               </a>
             </div>
             <ul className="footer-links list-reset">
