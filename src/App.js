@@ -25,7 +25,7 @@ function App() {
             <div className="brand header-brand">
               <h2 className="m-0">
                 <div className="logo-container">
-                  <Logo logo="http://despegaa.github.io/images/logo.png" />
+                  <Logo logo={process.env.PUBLIC_URL+"/images/logo.png"} />
                   <span>Despegaa</span>
                 </div>
               </h2>
@@ -47,7 +47,7 @@ function App() {
                 </div>
               </div>
               <div className="hero-figure anime-element hero-figure-relative">
-                <img className="hero-image headline" src="/images/hero.svg" alt="hero" />
+                <img className="hero-image headline" src={process.env.PUBLIC_URL+"/images/hero.svg"} alt="hero" />
                 <svg className="placeholder transparent" width="528" height="396" viewBox="0 0 528 396">
                   <rect width="528" height="396" />
                 </svg>
@@ -107,7 +107,7 @@ function App() {
           <div className="site-footer-inner">
             <div className="brand footer-brand">
               <a href="/">
-                <Logo logo="http://despegaa.github.io/images/logo.png" />
+                <Logo logo={process.env.PUBLIC_URL+"/images/logo.png"} />
               </a>
             </div>
             <ul className="footer-links list-reset">
