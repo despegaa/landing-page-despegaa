@@ -47,7 +47,7 @@ function App() {
                 </div>
               </div>
               <div className="hero-figure anime-element hero-figure-relative">
-                <img className="hero-image headline" src={process.env.PUBLIC_URL+"/images/hero.svg"} alt="hero" />
+                <img className="hero-image headline" src={process.env.PUBLIC_URL + "/images/hero.svg"} alt="hero" />
                 <svg className="placeholder transparent" width="528" height="396" viewBox="0 0 528 396">
                   <rect width="528" height="396" />
                 </svg>
