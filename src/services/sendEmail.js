@@ -10,7 +10,7 @@ async function sendEmail (e, data) {
     const name = data.name
     console.log(data)
     try {
-        const { data } = await axios.post('/send-email', {
+        const { data } = await axios.post('https://landing-page-despegaaa.herokuapp.com/send-email', {
             comments,
             contact,
             name
