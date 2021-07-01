@@ -133,7 +133,7 @@ function App() {
                 </a>
               </li>
               <li>
-                <a href="https://wa.me/526391886298" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/526391683782" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-whatsapp color-icons"></i>
                 </a>
               </li>
